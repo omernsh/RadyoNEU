@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/linear_layout"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/menu_icon"></Button>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/reklam_image"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            ></ImageView>
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"></ImageView>
+
+
+    </FrameLayout>
+
+
+
+    <TextView
+        android:id="@+id/istek_text"
+        android:layout_gravity="center"
+        android:textColor="@color/beyaz"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:id="@+id/playPauseButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#00ffffff"
+            android:contentDescription="@string/play_pause_button"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/power_button" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/sesi_kapat"
+                    android:src="@drawable/ses1" />
+
+                <SeekBar
+                    android:id="@+id/volBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="-9.5dp"
+                    android:layout_marginEnd="-5dp"
+                    android:layout_weight="1"
+                    android:progressDrawable="@drawable/red_scrubber_progress"
+                    android:thumb="@drawable/thumbim" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/sesi_ac"
+                    android:src="@drawable/ses2" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <Button
+            android:text="Sohbete katıl!"
+            android:id="@+id/chat"
+            android:background="@drawable/button_back"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/beyaz"
+
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Sohbete katılarak dinleyicilerimizle sohbet edebilir, şarkı isteğinde bulunbilirsin."></TextView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

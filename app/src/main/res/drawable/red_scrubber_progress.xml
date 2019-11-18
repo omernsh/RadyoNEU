@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:drawable="@color/gri"
+        android:gravity="center" />
+
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:gravity="center">
+        <scale
+            android:drawable="@color/gri"
+            android:scaleWidth="100%" />
+    </item>
+    <item
+        android:id="@android:id/progress"
+        android:gravity="center">
+        <scale
+            android:drawable="@color/beyaz"
+            android:scaleWidth="100%" />
+    </item>
+
+</layer-list>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/animation_list"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/logo"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/beyaz"
+        android:layout_marginTop="20sp"
+
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:text="Üye Ol"></TextView>
+
+
+    <EditText
+        android:id="@+id/username_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Kullanıcı adını gir"
+        android:padding="5dp"
+
+        android:background="@drawable/edit_text_back_2"
+        android:inputType="textPersonName"
+        />
+
+
+    <EditText
+        android:id="@+id/user_email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+
+        android:hint="E-mail adresini gir"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_back_2"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/user_password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_text_back_2"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="signUp"
+        android:text="Üye ol"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/beyaz"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/button_back"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Zaten üye misin?"
+        android:textColor="@color/beyaz"></TextView>
+
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+
+        android:textColor="@color/beyaz"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:layout_marginTop="79dp"
+        android:onClick="signIn"
+        android:text="Giriş yap"
+        />
+
+
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

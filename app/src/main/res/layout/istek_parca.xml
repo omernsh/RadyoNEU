@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/animation_list"
+    android:layout_gravity="center"
+    android:id="@+id/linear_layout"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/istek_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_back_2"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:hint="İstek parçanı gir">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/gonder_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Gönder"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_back"
+        android:textAllCaps="false"
+        android:textColor="@color/beyaz"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+</LinearLayout>

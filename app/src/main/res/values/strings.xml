@@ -1,0 +1,42 @@
+<resources>
+    <string name="live_broadcast">Canlı Yayın</string>
+    <string name="no_stream">Canlı yayın alınırken hata oluştu</string>
+    <string name="splash_screen">Splash screen</string>
+    <string name="app_logo">app logo</string>
+    <string name="play_pause_button">Play pause button</string>
+    <string name="sesi_kapat">sesi kapat</string>
+    <string name="sesi_ac">Sesi aç</string>
+    <string name="whatsapp_number">Whatsapp number</string>
+    <string name="calan_muzik">Çalan müzik</string>
+
+
+
+    <string name="app_name">Radyo NEU</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+    <string name="admob_app_id">ca-app-pub-5384223227797461~5754528980</string>
+    <string name="ad_unit_id">ca-app-pub-6192285615218693/5397792990</string>
+
+
+
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+
+
+    <string name="Power_Hashtag_Nasıl_Çalışır">Radyomuz hakkında</string>
+
+
+    <string name="Google_Playde_oy_ver">Google Play de oy ver</string>
+
+    <string name="Arkadaşlarınla_paylaş">Arkadaşlarınla paylaş</string>
+
+
+    <string name="Bize_ulaş">Bize ulaş</string>
+
+</resources>

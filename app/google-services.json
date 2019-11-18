@@ -1,0 +1,233 @@
+{
+  "project_info": {
+    "project_number": "471286672885",
+    "firebase_url": "https://nevsehirradyo.firebaseio.com",
+    "project_id": "nevsehirradyo",
+    "storage_bucket": "nevsehirradyo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471286672885:android:6dccd38cc85c3ad10844bc",
+        "android_client_info": {
+          "package_name": "co.mobiwise.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471286672885-402o57f347tvrsa0anubue79et4ljgsp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.mobiwise.myapplication",
+            "certificate_hash": "3a4c4a632ae3bda2192072acbba7af64524c06f6"
+          }
+        },
+        {
+          "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LASaoB4B3YOkPELKdXBhGGnLqwBMDT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471286672885:android:3cf80d690265cb6a0844bc",
+        "android_client_info": {
+          "package_name": "co.nevsehir.uniradyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471286672885-eiahud3orq4atvcjdatg6niqvkablrc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.nevsehir.uniradyo",
+            "certificate_hash": "3a4c4a632ae3bda2192072acbba7af64524c06f6"
+          }
+        },
+        {
+          "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LASaoB4B3YOkPELKdXBhGGnLqwBMDT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471286672885:android:97aa796428a9a8380844bc",
+        "android_client_info": {
+          "package_name": "com.dh.ihramfm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471286672885-egic841tvui22ftvms6tqpeno6m94c6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dh.ihramfm",
+            "certificate_hash": "3a4c4a632ae3bda2192072acbba7af64524c06f6"
+          }
+        },
+        {
+          "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LASaoB4B3YOkPELKdXBhGGnLqwBMDT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471286672885:android:1475b648cd0689c20844bc",
+        "android_client_info": {
+          "package_name": "com.dh.neuradyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471286672885-9fmqbd5n9jfru45bgsdfsqo6s0n6o2n9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dh.neuradyo",
+            "certificate_hash": "3a4c4a632ae3bda2192072acbba7af64524c06f6"
+          }
+        },
+        {
+          "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LASaoB4B3YOkPELKdXBhGGnLqwBMDT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471286672885:android:9b1a50aa234ac2f20844bc",
+        "android_client_info": {
+          "package_name": "com.example.nevsehirradyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471286672885-h04g265gj3i1211r9jja3rtetgjg0q87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nevsehirradyo",
+            "certificate_hash": "3a4c4a632ae3bda2192072acbba7af64524c06f6"
+          }
+        },
+        {
+          "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LASaoB4B3YOkPELKdXBhGGnLqwBMDT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471286672885:android:5d336731233c6db20844bc",
+        "android_client_info": {
+          "package_name": "com.nevsehiradyokontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471286672885-t7vghm0m010ei2tt2r4sthi7sofio8tc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nevsehiradyokontrol",
+            "certificate_hash": "3a4c4a632ae3bda2192072acbba7af64524c06f6"
+          }
+        },
+        {
+          "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8LASaoB4B3YOkPELKdXBhGGnLqwBMDT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471286672885-v31uorc2d3bei8fb6toltr75aq3epv4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

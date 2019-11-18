@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/animation_list"
+    android:layout_width="match_parent"
+    android:id="@+id/linear_layout"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"></ImageView>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_back_3"
+            android:padding="15dp"
+            android:textColor="@color/siyah"
+
+            android:text="Radyo Neü 2014 Yılında Nevşehir Üniversitesi Öğrencileri Tarafından Kurulmuştur. Üniversite öğrencileri kendi imkanları ile kurdukları radyomuzda bir çok ünlü sanatçıyı konuk etmiştir. Sayısız canlı yayınlar yapmış ve üniversitesi okuyan öğrenci arkadaşlarımıza güzel bir platform oluşturmuştur. Şimdi yeniden 1 Kasım 2019 tarihinde tekrar yayın hayatına başlayan radyomuz üniversite öğrencilerinden oluşan djleri ile yeniden sosyal bir platform oluşturmak için yola çıktı. Bu süreçte siz sevgili öğrenciler ve dinleyicilerimizin de desteği ile yenden 1 numara olma yolunda hızla ilerleyeceğimizi düşünüyoruz. Uygulamamız ile sohbet edip istek isteyebilir, yeni arkadaşlıklar dostluklar edinirken müziğin keyfine varabilirsiniz. KEYİFLİ DİNLEMELER."></TextView>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="KEYİFLİ DİNLEMELER...."></TextView>
+
+
+
+
+</LinearLayout>
